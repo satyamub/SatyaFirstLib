@@ -7,39 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F0141B11CAA4D9600034A93 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F0141B01CAA4D9600034A93 /* BlinkingLabel.swift */; };
-		34506EA94AE7372ECD66BE12C1E289C3 /* SatyaFirstLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1653F86C1E11A3356F82A939807B89F /* SatyaFirstLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38F4D499D7A49729F3DFEB2356BD274A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC2550D8654DFC394CA8A2409F53CA /* Foundation.framework */; };
+		38F4D499D7A49729F3DFEB2356BD274A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7CF321395005D3E16D51A6BE2BB80 /* Foundation.framework */; };
+		3AE612C371E81D787E007D28E5B48636 /* SatyaFirstLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1BBE019E646286BA81F0346BFAD81E3 /* SatyaFirstLib-dummy.m */; };
 		4C29DB2A16D265CEC74C360019D7E878 /* Pods-SatyaFirstLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F6FC50B2439624EC236C9BEEB2CEAD /* Pods-SatyaFirstLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		536D2F11147FFEF6168B0D370E486A1E /* Pods-SatyaFirstLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F5C9C71F56C870C24ABC26922672D3 /* Pods-SatyaFirstLib_Tests-dummy.m */; };
-		86FD42917E8D18082F435F2E013C791E /* SatyaFirstLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6CF20B2BBE8FB44CC860054E769AE12F /* SatyaFirstLib.bundle */; };
-		9F151C08F4D97B031D2BFF1805F7F4A0 /* SatyaFirstLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 738FB2B0A333847BCDAC6F221FD21DDF /* SatyaFirstLib-dummy.m */; };
-		A26B5AFE9D22CF4DC8CF2181B5F78C52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC2550D8654DFC394CA8A2409F53CA /* Foundation.framework */; };
+		8ABC0207D6B7C8E790356C17A1F12715 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA97B4DB1145740DB1E1C3B73FEEF20 /* Person.swift */; };
+		903A02A42EB9A4771AA3EE29FE5C33D1 /* SatyaFirstLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6CF20B2BBE8FB44CC860054E769AE12F /* SatyaFirstLib.bundle */; };
+		9BB1B9228D3139B678B4F497D2DCE073 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7CF321395005D3E16D51A6BE2BB80 /* Foundation.framework */; };
+		A01FF4366A80D644EE09C094E7FA5E88 /* SatyaFirstLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE6B744A73E31CACA94173B57E0EEE7C /* SatyaFirstLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0A15EB34EFE14EA77819424F1210063 /* Pods-SatyaFirstLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 979C7E644EEF37C83103FCF94C6D87B8 /* Pods-SatyaFirstLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C981882F22ACA664A5EF3A9552462A0D /* RGBAColorFromString.swift in Sources */ = {isa = PBXBuildFile; fileRef = E430A04719D80B0F1F3AB5E22B6C0D72 /* RGBAColorFromString.swift */; };
+		D38594F6AB1A32A9AD207037C3EBEEE0 /* BlinkingLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85DACE875C06ABDCC48BFC13297F061 /* BlinkingLabel.swift */; };
 		D60FF22EC055B40416FF93EECDA6B86A /* Pods-SatyaFirstLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69FC565744653360A38843D33B77F4E2 /* Pods-SatyaFirstLib_Example-dummy.m */; };
-		ED8C782B6AEFFC899BDAA0A599EC2D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3AC2550D8654DFC394CA8A2409F53CA /* Foundation.framework */; };
+		ED8C782B6AEFFC899BDAA0A599EC2D2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FC7CF321395005D3E16D51A6BE2BB80 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1440391F8C069C67934AC355655F8B3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 547F742CEDF5BA086FE27040FBFCDDBD;
-			remoteInfo = SatyaFirstLib;
-		};
-		2C4864C888D0B2B2B07CCB62EC6FADEB /* PBXContainerItemProxy */ = {
+		37B1FFDCDACE9A64ECA682FF51B459B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6BF40F526CC142175FBB14D013410A85;
 			remoteInfo = "SatyaFirstLib-SatyaFirstLib";
 		};
-		A03FC2B2007AB77DD4CD84DB10BEB31F /* PBXContainerItemProxy */ = {
+		3855498BE26BB8DC86AA627799BB52CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 547F742CEDF5BA086FE27040FBFCDDBD;
+			remoteGlobalIDString = F82A493ED958C89F6DF290B185FBC6B3;
+			remoteInfo = SatyaFirstLib;
+		};
+		738E2B33A85A57955B4A36F60A02F43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F82A493ED958C89F6DF290B185FBC6B3;
 			remoteInfo = SatyaFirstLib;
 		};
 /* End PBXContainerItemProxy section */
@@ -47,9 +49,9 @@
 /* Begin PBXFileReference section */
 		0CF18FB869322379F58C8C8A48571023 /* SatyaFirstLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaFirstLib-prefix.pch"; sourceTree = "<group>"; };
 		0D9648931639F414AE03AB4633A25CD9 /* SatyaFirstLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SatyaFirstLib.xcconfig; sourceTree = "<group>"; };
+		1FC7CF321395005D3E16D51A6BE2BB80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		21994816AC57509DCEADFCAF7D4C18A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SatyaFirstLib-Private.xcconfig"; sourceTree = "<group>"; };
-		2F0141B01CAA4D9600034A93 /* BlinkingLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
 		31496ED6212261A5F4355DF5CFAD17CB /* Pods-SatyaFirstLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaFirstLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		371478B8C7E75E207A63021C3881B360 /* Pods-SatyaFirstLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaFirstLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		44A08CE00F9AFF03861826307965EB9D /* Pods_SatyaFirstLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SatyaFirstLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,24 +62,26 @@
 		6CF20B2BBE8FB44CC860054E769AE12F /* SatyaFirstLib.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SatyaFirstLib.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F4E566E69274D72662C14CA380F9660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6FCA05C0E76AD8B4397D183F4A5F391E /* Pods-SatyaFirstLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaFirstLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		738FB2B0A333847BCDAC6F221FD21DDF /* SatyaFirstLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatyaFirstLib-dummy.m"; sourceTree = "<group>"; };
 		82756A65C7B9AEF1395FA07E1A0590AA /* Pods-SatyaFirstLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatyaFirstLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		8B33BF61280D02AFCA6DE1C4881AB704 /* Pods-SatyaFirstLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SatyaFirstLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA97B4DB1145740DB1E1C3B73FEEF20 /* Person.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		91FE1ECB59D50F8EE97F26CD67FB3339 /* Pods-SatyaFirstLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatyaFirstLib_Example.modulemap"; sourceTree = "<group>"; };
+		9774F7B75601D2D4AD85E7225D7BAD55 /* SatyaFirstLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SatyaFirstLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979C7E644EEF37C83103FCF94C6D87B8 /* Pods-SatyaFirstLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatyaFirstLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		9B2DBEC1C34C88712C0340BF67575FA1 /* Pods-SatyaFirstLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaFirstLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		9ECBBE3733F5725AE7ADD4F75391A077 /* SatyaFirstLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SatyaFirstLib.modulemap; sourceTree = "<group>"; };
+		A1BBE019E646286BA81F0346BFAD81E3 /* SatyaFirstLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SatyaFirstLib-dummy.m"; sourceTree = "<group>"; };
 		B0F6FC50B2439624EC236C9BEEB2CEAD /* Pods-SatyaFirstLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SatyaFirstLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B2F60B67706A641E932A0DD4F5B4A2AF /* Pods-SatyaFirstLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaFirstLib_Example-resources.sh"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BEFC8089F8BFE54910E3CF62D25CE2D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C6478D334A8816DC331C4682904AFF23 /* Pods-SatyaFirstLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SatyaFirstLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C85DACE875C06ABDCC48BFC13297F061 /* BlinkingLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BlinkingLabel.swift; sourceTree = "<group>"; };
 		CADC12D34407DBCE435F5C1814C6903A /* Pods-SatyaFirstLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SatyaFirstLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D3AC2550D8654DFC394CA8A2409F53CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D5216027CC87E208D00FE9D3464AD888 /* SatyaFirstLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SatyaFirstLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DA6CE22C93EB2BAEAF0E04C06656E2 /* Pods-SatyaFirstLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SatyaFirstLib_Tests.modulemap"; sourceTree = "<group>"; };
+		DE6B744A73E31CACA94173B57E0EEE7C /* SatyaFirstLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaFirstLib-umbrella.h"; sourceTree = "<group>"; };
 		E3F5C9C71F56C870C24ABC26922672D3 /* Pods-SatyaFirstLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SatyaFirstLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		F1653F86C1E11A3356F82A939807B89F /* SatyaFirstLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SatyaFirstLib-umbrella.h"; sourceTree = "<group>"; };
+		E430A04719D80B0F1F3AB5E22B6C0D72 /* RGBAColorFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RGBAColorFromString.swift; sourceTree = "<group>"; };
 		F695DCA25EEA3889289F8808AC9F1FB1 /* Pods-SatyaFirstLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SatyaFirstLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,11 +109,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BCA809350F8098C7895816FFC4C8B12C /* Frameworks */ = {
+		92CC948BDDA02E2FCFBFD8B7C6760BAC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26B5AFE9D22CF4DC8CF2181B5F78C52 /* Foundation.framework in Frameworks */,
+				9BB1B9228D3139B678B4F497D2DCE073 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,14 +127,6 @@
 				2BC0555274E4C80C9CE8F8DC5B8C3407 /* Pods-SatyaFirstLib_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		06281924D2DF5EDF5EABA76128CEF52D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				B271B4903013CE487FAE132E69EAD2BE /* Classes */,
-			);
-			path = Pod;
 			sourceTree = "<group>";
 		};
 		2BC0555274E4C80C9CE8F8DC5B8C3407 /* Pods-SatyaFirstLib_Tests */ = {
@@ -154,7 +150,7 @@
 		36443EDAAC60C8E7259DAEEB04447FA9 /* SatyaFirstLib */ = {
 			isa = PBXGroup;
 			children = (
-				06281924D2DF5EDF5EABA76128CEF52D /* Pod */,
+				8601D57A82C4548BA2F257621F852953 /* Pod */,
 				483F7C3CDAAC731BCE490D24603686E8 /* Support Files */,
 			);
 			name = SatyaFirstLib;
@@ -168,9 +164,9 @@
 				9ECBBE3733F5725AE7ADD4F75391A077 /* SatyaFirstLib.modulemap */,
 				0D9648931639F414AE03AB4633A25CD9 /* SatyaFirstLib.xcconfig */,
 				29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */,
-				738FB2B0A333847BCDAC6F221FD21DDF /* SatyaFirstLib-dummy.m */,
+				A1BBE019E646286BA81F0346BFAD81E3 /* SatyaFirstLib-dummy.m */,
 				0CF18FB869322379F58C8C8A48571023 /* SatyaFirstLib-prefix.pch */,
-				F1653F86C1E11A3356F82A939807B89F /* SatyaFirstLib-umbrella.h */,
+				DE6B744A73E31CACA94173B57E0EEE7C /* SatyaFirstLib-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/SatyaFirstLib";
@@ -179,7 +175,7 @@
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D3AC2550D8654DFC394CA8A2409F53CA /* Foundation.framework */,
+				1FC7CF321395005D3E16D51A6BE2BB80 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -195,12 +191,12 @@
 			);
 			sourceTree = "<group>";
 		};
-		B271B4903013CE487FAE132E69EAD2BE /* Classes */ = {
+		8601D57A82C4548BA2F257621F852953 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				2F0141B01CAA4D9600034A93 /* BlinkingLabel.swift */,
+				F73CC5E3E010503936BA2E07F11C59C1 /* Classes */,
 			);
-			path = Classes;
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		B63955077227D8635A33716FB63184C4 /* Development Pods */ = {
@@ -225,7 +221,7 @@
 				44A08CE00F9AFF03861826307965EB9D /* Pods_SatyaFirstLib_Example.framework */,
 				5609BA373D62AAB0191130B57E0213E1 /* Pods_SatyaFirstLib_Tests.framework */,
 				6CF20B2BBE8FB44CC860054E769AE12F /* SatyaFirstLib.bundle */,
-				D5216027CC87E208D00FE9D3464AD888 /* SatyaFirstLib.framework */,
+				9774F7B75601D2D4AD85E7225D7BAD55 /* SatyaFirstLib.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -248,22 +244,32 @@
 			path = "Target Support Files/Pods-SatyaFirstLib_Example";
 			sourceTree = "<group>";
 		};
+		F73CC5E3E010503936BA2E07F11C59C1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C85DACE875C06ABDCC48BFC13297F061 /* BlinkingLabel.swift */,
+				8CA97B4DB1145740DB1E1C3B73FEEF20 /* Person.swift */,
+				E430A04719D80B0F1F3AB5E22B6C0D72 /* RGBAColorFromString.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		2A415E46881A41E80D453AD4617AF036 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A01FF4366A80D644EE09C094E7FA5E88 /* SatyaFirstLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		85236328161477E3041EFF042F154FF8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4C29DB2A16D265CEC74C360019D7E878 /* Pods-SatyaFirstLib_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9226F5CBEF8EEB9173AA342F22D550FC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				34506EA94AE7372ECD66BE12C1E289C3 /* SatyaFirstLib-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,25 +284,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		547F742CEDF5BA086FE27040FBFCDDBD /* SatyaFirstLib */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1E82E8D51AC59042DF04AF0183BDAEFE /* Build configuration list for PBXNativeTarget "SatyaFirstLib" */;
-			buildPhases = (
-				41F2AE1DC50DF2509D6B4B639AD04D9D /* Sources */,
-				BCA809350F8098C7895816FFC4C8B12C /* Frameworks */,
-				C437536ABA080544D1FAF1F1FB3963CB /* Resources */,
-				9226F5CBEF8EEB9173AA342F22D550FC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9F423A92D42C3683BBCBC7CBEB218059 /* PBXTargetDependency */,
-			);
-			name = SatyaFirstLib;
-			productName = SatyaFirstLib;
-			productReference = D5216027CC87E208D00FE9D3464AD888 /* SatyaFirstLib.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		6BF40F526CC142175FBB14D013410A85 /* SatyaFirstLib-SatyaFirstLib */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5236E53EFD0248C3A5B6E45FEE2242E8 /* Build configuration list for PBXNativeTarget "SatyaFirstLib-SatyaFirstLib" */;
@@ -325,7 +312,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				2A3B6715EFD0FDDBD63CA21EDC01E46C /* PBXTargetDependency */,
+				486F43FBF2A282A4710CD5132B39E0B5 /* PBXTargetDependency */,
 			);
 			name = "Pods-SatyaFirstLib_Example";
 			productName = "Pods-SatyaFirstLib_Example";
@@ -343,11 +330,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				22240D9D324D0D5189AA784C09212C90 /* PBXTargetDependency */,
+				2D3927B2C7880DE5725937FFE79158D4 /* PBXTargetDependency */,
 			);
 			name = "Pods-SatyaFirstLib_Tests";
 			productName = "Pods-SatyaFirstLib_Tests";
 			productReference = 5609BA373D62AAB0191130B57E0213E1 /* Pods_SatyaFirstLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F82A493ED958C89F6DF290B185FBC6B3 /* SatyaFirstLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6692C87350C400BE270BE8541494C9B /* Build configuration list for PBXNativeTarget "SatyaFirstLib" */;
+			buildPhases = (
+				C18FC0CBB6D1CB2173186DCDECE688EB /* Sources */,
+				92CC948BDDA02E2FCFBFD8B7C6760BAC /* Frameworks */,
+				677398EB7CE568822E77C2A2196936E0 /* Resources */,
+				2A415E46881A41E80D453AD4617AF036 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B3E7C5391DAB29B1ED56609C03835F /* PBXTargetDependency */,
+			);
+			name = SatyaFirstLib;
+			productName = SatyaFirstLib;
+			productReference = 9774F7B75601D2D4AD85E7225D7BAD55 /* SatyaFirstLib.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -356,7 +362,7 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
@@ -373,7 +379,7 @@
 			targets = (
 				CC2E5725B6C04F9BBE7A2CA32863DE88 /* Pods-SatyaFirstLib_Example */,
 				E1049915D877004760331F3315223D53 /* Pods-SatyaFirstLib_Tests */,
-				547F742CEDF5BA086FE27040FBFCDDBD /* SatyaFirstLib */,
+				F82A493ED958C89F6DF290B185FBC6B3 /* SatyaFirstLib */,
 				6BF40F526CC142175FBB14D013410A85 /* SatyaFirstLib-SatyaFirstLib */,
 			);
 		};
@@ -387,29 +393,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C437536ABA080544D1FAF1F1FB3963CB /* Resources */ = {
+		677398EB7CE568822E77C2A2196936E0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86FD42917E8D18082F435F2E013C791E /* SatyaFirstLib.bundle in Resources */,
+				903A02A42EB9A4771AA3EE29FE5C33D1 /* SatyaFirstLib.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		41F2AE1DC50DF2509D6B4B639AD04D9D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9F151C08F4D97B031D2BFF1805F7F4A0 /* SatyaFirstLib-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		929B7E4782ACF69E3F14C5924CA00B0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18FC0CBB6D1CB2173186DCDECE688EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38594F6AB1A32A9AD207037C3EBEEE0 /* BlinkingLabel.swift in Sources */,
+				8ABC0207D6B7C8E790356C17A1F12715 /* Person.swift in Sources */,
+				C981882F22ACA664A5EF3A9552462A0D /* RGBAColorFromString.swift in Sources */,
+				3AE612C371E81D787E007D28E5B48636 /* SatyaFirstLib-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,7 +434,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0141B11CAA4D9600034A93 /* BlinkingLabel.swift in Sources */,
 				D60FF22EC055B40416FF93EECDA6B86A /* Pods-SatyaFirstLib_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,23 +441,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		22240D9D324D0D5189AA784C09212C90 /* PBXTargetDependency */ = {
+		2D3927B2C7880DE5725937FFE79158D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SatyaFirstLib;
-			target = 547F742CEDF5BA086FE27040FBFCDDBD /* SatyaFirstLib */;
-			targetProxy = 1440391F8C069C67934AC355655F8B3B /* PBXContainerItemProxy */;
+			target = F82A493ED958C89F6DF290B185FBC6B3 /* SatyaFirstLib */;
+			targetProxy = 738E2B33A85A57955B4A36F60A02F43F /* PBXContainerItemProxy */;
 		};
-		2A3B6715EFD0FDDBD63CA21EDC01E46C /* PBXTargetDependency */ = {
+		486F43FBF2A282A4710CD5132B39E0B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SatyaFirstLib;
-			target = 547F742CEDF5BA086FE27040FBFCDDBD /* SatyaFirstLib */;
-			targetProxy = A03FC2B2007AB77DD4CD84DB10BEB31F /* PBXContainerItemProxy */;
+			target = F82A493ED958C89F6DF290B185FBC6B3 /* SatyaFirstLib */;
+			targetProxy = 3855498BE26BB8DC86AA627799BB52CF /* PBXContainerItemProxy */;
 		};
-		9F423A92D42C3683BBCBC7CBEB218059 /* PBXTargetDependency */ = {
+		F8B3E7C5391DAB29B1ED56609C03835F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "SatyaFirstLib-SatyaFirstLib";
 			target = 6BF40F526CC142175FBB14D013410A85 /* SatyaFirstLib-SatyaFirstLib */;
-			targetProxy = 2C4864C888D0B2B2B07CCB62EC6FADEB /* PBXContainerItemProxy */;
+			targetProxy = 37B1FFDCDACE9A64ECA682FF51B459B5 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -527,6 +535,34 @@
 			};
 			name = Debug;
 		};
+		75E88D597F1882DD03A513DADF745C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatyaFirstLib/SatyaFirstLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatyaFirstLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatyaFirstLib/SatyaFirstLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SatyaFirstLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		883389E1FCCAAB2790D7252BE6CA55B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */;
@@ -538,6 +574,33 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
+		};
+		90BB10466AFECD628C4139A47ABD8E87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.2.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.2.0;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SatyaFirstLib/SatyaFirstLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SatyaFirstLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SatyaFirstLib/SatyaFirstLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SatyaFirstLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		90EBD0A2E8E9DD64522BDCB06721815E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -555,7 +618,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 31496ED6212261A5F4355DF5CFAD17CB /* Pods-SatyaFirstLib_Example.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -581,39 +643,11 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		A4918F449D168E49C6A630B2A867DD6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SatyaFirstLib/SatyaFirstLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SatyaFirstLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SatyaFirstLib/SatyaFirstLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = SatyaFirstLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		B3E0E8CA2805C14FFFE7EE3CCC1DD2CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6FCA05C0E76AD8B4397D183F4A5F391E /* Pods-SatyaFirstLib_Example.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -638,34 +672,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		C0E2A5A3EA580DAA1EF056C3AA989205 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29B1CAA409FEE2588943B665F4FB7991 /* SatyaFirstLib-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/SatyaFirstLib/SatyaFirstLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/SatyaFirstLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/SatyaFirstLib/SatyaFirstLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = SatyaFirstLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C37DACA854FCDB8CAABD770DFCA36C17 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -738,15 +744,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1E82E8D51AC59042DF04AF0183BDAEFE /* Build configuration list for PBXNativeTarget "SatyaFirstLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C0E2A5A3EA580DAA1EF056C3AA989205 /* Debug */,
-				A4918F449D168E49C6A630B2A867DD6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		29ED032ED16E461F1BECD4C2CEFA5DE9 /* Build configuration list for PBXNativeTarget "Pods-SatyaFirstLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -770,6 +767,15 @@
 			buildConfigurations = (
 				883389E1FCCAAB2790D7252BE6CA55B8 /* Debug */,
 				90EBD0A2E8E9DD64522BDCB06721815E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6692C87350C400BE270BE8541494C9B /* Build configuration list for PBXNativeTarget "SatyaFirstLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75E88D597F1882DD03A513DADF745C23 /* Debug */,
+				90BB10466AFECD628C4139A47ABD8E87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

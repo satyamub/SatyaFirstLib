@@ -15,6 +15,10 @@ class ViewController: UIViewController {
     var isBlinking = false
     let blinkingLabel = BlinkingLabel(frame: CGRectMake(10, 20, 200, 30))
     
+    func hellowEWorld()
+    {
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -25,6 +29,10 @@ class ViewController: UIViewController {
         blinkingLabel.startBlinking()
         isBlinking = true
         
+        let p :Person = Person(name: "Satya", age: 12)
+        p.displayName()
+        
+        //let coneOuterColor = RGB(184, green: 104, blue: 50)
         // Create a UIButton to toggle the blinking
         let toggleButton = UIButton(frame: CGRectMake(10, 60, 125, 30))
         toggleButton.setTitle("Toggle Blinking", forState: .Normal)

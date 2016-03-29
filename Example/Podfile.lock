@@ -1,5 +1,5 @@
 PODS:
-  - SatyaFirstLib (0.1.0)
+  - SatyaFirstLib (0.2.0)
 
 DEPENDENCIES:
   - SatyaFirstLib (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SatyaFirstLib: 0a086795166392d4f9639911c0f2649d583e6b6b
+  SatyaFirstLib: af7108e927dbf9d84218d9351ef2ea7eece9b0ec
 
 COCOAPODS: 0.38.2
