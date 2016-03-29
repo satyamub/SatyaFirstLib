@@ -1,0 +1,6 @@
+framework module SatyaFirstLib {
+  umbrella header "SatyaFirstLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

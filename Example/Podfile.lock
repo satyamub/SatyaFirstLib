@@ -1,0 +1,14 @@
+PODS:
+  - SatyaFirstLib (0.1.0)
+
+DEPENDENCIES:
+  - SatyaFirstLib (from `../`)
+
+EXTERNAL SOURCES:
+  SatyaFirstLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SatyaFirstLib: 0a086795166392d4f9639911c0f2649d583e6b6b
+
+COCOAPODS: 0.38.2
